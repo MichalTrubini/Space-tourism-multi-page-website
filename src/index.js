@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/style.css';
+import HomePage from './components/homePage'
 
-const element = <h1>Fuck you</h1>
-
-ReactDOM.render(element, document.getElementById('root'));
+ReactDOM.render(<HomePage/>, document.getElementById('root'));
